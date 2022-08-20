@@ -80,7 +80,7 @@ const Home = () => {
           </a>
         </h4>
         <br></br>
-        <h3>@{new Date().getFullYear()} All Rights Reserved.</h3>
+        <h5>@{new Date().getFullYear()} All Rights Reserved.</h5>
       </footer>
     </div>
   );
