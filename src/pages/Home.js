@@ -79,6 +79,8 @@ const Home = () => {
             Gunratna More
           </a>
         </h4>
+        <br></br>
+        <h3>@{new Date().getFullYear()} All Rights Reserved.</h3>
       </footer>
     </div>
   );
