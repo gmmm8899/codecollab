@@ -48,6 +48,7 @@ const Home = () => {
             type="text"
             className="inputBox"
             placeholder="ROOM ID"
+            spellCheck="false"
             onChange={(e) => setRoomId(e.target.value)}
             value={roomId}
             onKeyUp={handleInputEnter}
@@ -57,7 +58,6 @@ const Home = () => {
             className="inputBox"
             placeholder="USERNAME"
             spellCheck="false"
-            autoComplete="false"
             onChange={(e) => setUsername(e.target.value)}
             value={username}
             onKeyUp={handleInputEnter}
