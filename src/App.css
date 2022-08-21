@@ -103,7 +103,7 @@ footer a:hover {
 }
 
 .aside {
-  background: #1c1e29;
+  background: #171810;
   padding: 16px;
   color: #fff;
   display: flex;
@@ -131,7 +131,7 @@ footer a:hover {
 }
 
 .logo {
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid #171810;
   padding-bottom: 10px;
 }
 

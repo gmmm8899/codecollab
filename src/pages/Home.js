@@ -66,14 +66,14 @@ const Home = () => {
           <span className="createInfo">
             Don't have ID ? No Worries Create &nbsp;
             <a onClick={createNewRoom} href="" className="createNewBtn">
-              new room
+              New Room
             </a>
           </span>
         </div>
       </div>
       <footer>
         <h4>
-          Made by{' '}
+          Made by 🎯
           <a href="https://linkedin.com/in/gunratna-more-9a4837196">
             {' '}
             Gunratna More

@@ -51,7 +51,19 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
     };
   }, [socketRef.current]);
 
-  return <textarea id="realtimeEditor"></textarea>;
+  return (
+    <textarea
+      id="realtimeEditor"
+      onPaste={(e) => {
+        e.preventDefault();
+        return false;
+      }}
+      onCopy={(e) => {
+        e.preventDefault();
+        return false;
+      }}
+    ></textarea>
+  );
 };
 
 export default Editor;
