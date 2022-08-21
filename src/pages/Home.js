@@ -56,6 +56,8 @@ const Home = () => {
             type="text"
             className="inputBox"
             placeholder="USERNAME"
+            spellCheck="false"
+            autoComplete="false"
             onChange={(e) => setUsername(e.target.value)}
             value={username}
             onKeyUp={handleInputEnter}
